@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Meus Slides</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Meus Slides</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>(https://drive.google.com/file/d/1h1UL5djtN1f-OJX4XTla2vmKql7RNrAC/view?usp=sharing)</h1>
+  <h1>📊 Meus Slides</h1>
 
-    <div class="container">
-        <button onclick="anterior()">⬅</button>
+  <div class="pdf-container">
+    <iframe 
+      src="https://drive.google.com/file/d/1h1UL5djtN1f-OJX4XTla2vmKql7RNrAC/preview"
+      width="100%" 
+      height="600px">
+    </iframe>
+  </div>
 
-        <iframe id="viewer" src="pdfs/slide1.pdf"></iframe>
-
-        <button onclick="proximo()">➡</button>
-    </div>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
